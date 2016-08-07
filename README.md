@@ -1,6 +1,8 @@
 OPC XML-DA Java SDK
 ===================
 
+Open Process Control XML-DataAccess Java SDK
+
 ## Prerequisites
 
 Java 8, Maven 3.1+
