@@ -1,6 +1,8 @@
 OPC XML-DA Java SDK
 ===================
 
+[![Build Status](https://travis-ci.org/tumakha/opc-xmlda-sdk.svg?branch=master)](https://travis-ci.org/tumakha/opc-xmlda-sdk)
+
 Open Process Control XML-DataAccess Java SDK
 
 ## Prerequisites
