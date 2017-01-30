@@ -30,6 +30,11 @@
             <artifactId>httpclient</artifactId>
             <version>4.5.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.jvnet.jaxb2_commons</groupId>
+            <artifactId>jaxb2-basics-runtime</artifactId>
+            <version>0.9.5</version>
+        </dependency>
 
         <!-- Test Dependencies -->
         <dependency>
@@ -64,6 +69,17 @@
                         <include>*.wsdl</include>
                     </schemaIncludes>
                     <generatePackage>ua.tumakha.yuriy.opc.xmlda.sdk.model</generatePackage>
+                    <args>
+                        <arg>-Xequals</arg>
+                        <arg>-XhashCode</arg>
+                    </args>
+                    <plugins>
+                        <plugin>
+                            <groupId>org.jvnet.jaxb2_commons</groupId>
+                            <artifactId>jaxb2-basics</artifactId>
+                            <version>0.9.5</version>
+                        </plugin>
+                    </plugins>
                 </configuration>
             </plugin>
         </plugins>
